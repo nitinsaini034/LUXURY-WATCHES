@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+   width: 100%;
+    overflow-x: hidden;   
+}
+.navbar{
+    height: 70px;
+    
+}
+nav .container-fluid{
+  margin-left: 15em;
+  height: 50px;
+}
+nav .container-fluid a.active{
+    color: white;
+}
+nav .container-fluid .collapse .navbar-nav .nav-item .active{
+    color: white;
+
+}
+nav .d-flex{
+    margin-left: 20em;
+}
+nav .d-flex .form-control{
+    background: #b98f7d;
+    color: white;
+    width: 12em;
+    border-radius: 38px;
+}
+nav .d-flex .btn{
+    background: white;
+    border-radius: 38px;
+    color: #000000;
+}
+nav .d-flex input[type="text"]::-webkit-input-placeholder{
+    color: white;
+}
+.navbar-brand{
+    font-weight: 800;
+    font-size: 50px;
+}
+.navbar .container-fluid .watches a{
+    color: #b98f7d;
+    font-weight: 800;
+}
+.watch1{
+    display: flex;
+}
+.watch1 .content{
+    border: 1px solid black;
+    margin: 1px;
+    height: 36em;   
+}
+.watch1 .box2 img{
+height: 36em;
+float: right;
+width: 47em;
+}
+.watch1 .box1 h1{
+    float: right;
+    margin-top: 65px;
+    line-height: 2;
+    font-weight: 800;
+    font-size: 50px;
+    color: white;
+}
+.watch1 .box1 .button{
+    display: flex;
+    margin: 24em 50px 0 0;
+    margin-left: 14em;
+}
+.watch1 .box1 .button button{
+    height: 2em;
+    width: 11em;
+    padding: 4px;
+    margin: 10px;
+    color: #b98f7d;
+    border: 2px solid #b98f7d;
+}
+.watch1 .box1 .button button:hover{
+    background: #b98f7d;
+    color: white;
+}
+.watch2{
+    display: flex;
+    height: 31em;
+}
+.watch2 .content2{
+    height: 25em;
+    margin: 1px;
+    display: flex;
+    flex-direction: column;
+}
+.watch2 .box3 img{
+    float: left;
+    height: 32em;
+    width: 44em;
+}
+.watch2 .box4 h1{
+    float: left;
+    color: white;
+    font-weight: 600;
+    margin-top: 2em;
+    padding: 30px;
+    font-size: 45px;
+}
+.watch2 .box4 .para{
+    margin-left: 27px;
+    color: white;
+    opacity: 0.5;
+}
+.watch3{
+    height: 46em;
+    /* border: 1px solid white; */
+}
+.watch3 .collection h1{
+    color: white;
+    font-weight: 600;
+    padding: 50px;
+    margin-left: 3.59em;
+}
+.watch3 .flex1{
+    display: flex;
+    justify-content: center;
+}
+.watch3 .flex1 .flex2{
+    display: flex;
+    justify-content: space-between;
+    height: 35em;
+    width: 70em;
+    /* border: 1px solid white; */
+}
+.watch3 .flex1 .flex2 .box5{
+    height: 32em;
+    width: 21em;
+    border: 1px solid #b98f7d;
+}
+.watch3 .flex1 .flex2 .box5:hover{
+    box-shadow: 5px 5px 5px #b98f7d;
+    transition: 0.5s;
+    transition-timing-function: linear;
+}
+.watch3 .flex1 .flex2 .box5 img{
+    margin-left: 30px;
+    padding: 23px;
+    max-height: 25em;
+}
+.watch3 .flex1 .flex2 .box5 h3{
+    color: white;
+    margin-left: 38px;
+    font-weight: 600;
+}
+.watch3 .flex1 .flex2 .box5 span{
+    color: #b98f7d;
+    font-weight: 600;
+    margin-left: 8em;
+}
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 13em;
+    background: #212121;
+    fill: #7d7777;
+}
+.logo img{
+    height: 5em;
+    width: 13em;
+    fill: #7d7777;
+    background: #212121;
+    max-height: 4em;    
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 10em;
+    background: #000000;
+}
+.footer h2{
+    margin-top: 2em;
+    color: #b98f7d;
+}
+.footer .fa-brands{
+    color: #7d7777;
+    margin: 30px;
+}
